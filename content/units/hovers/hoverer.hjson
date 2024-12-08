@@ -1,5 +1,5 @@
-type: flying
-localizedName: "test"
+type: mech
+localizedName: "hoverer"
 description: "h"
 flying: false
 targetGround: true
