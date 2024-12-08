@@ -1,4 +1,4 @@
-type: air
+type: flying
 localizedName: "test"
 description: "h"
 flying: false
