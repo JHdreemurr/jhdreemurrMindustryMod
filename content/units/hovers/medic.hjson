@@ -1,1 +1,67 @@
-
+type: air
+localizedName: "test"
+description: "h"
+flying: false
+targetGround: true
+hover: true
+targetAir: true
+health: 270
+speed: 2
+rotateSpeed: 65
+circleTarget: true
+lightRadius: 25
+lightColor: ffffff
+weapons: [
+  {
+    type: RepairBeamWeapon
+    name: "Repair Beam"
+    targetBuildings: true
+    targetUnits: true
+    showStatSprite: false
+    Rotate: true
+    controllable: false
+    useAttackRange: false
+    autoTarget: true
+    rotateSpeed: 50.0
+    recoil: 0
+    continuous: true
+    alwaysContinuous: true
+    mirror: false
+    bullet: {
+      type: BulletType
+      maxRange: 7.5
+    }
+  }
+  {
+    type: LaserWeapon
+    name: "Raygun"
+    showStatSprite: false
+    Rotate: true
+    controllable: true
+    useAttackRange: true
+    autoTarget: true
+    rotateSpeed: 50.0
+    recoil: 0
+    mirror: true
+    reload: 0.05
+    bullet: {
+      type: LaserBoltBulletType
+      damage: 7
+      pierce: true
+      pierceCap: 10
+      laserAbsorb: false
+    }
+  }
+]
+abilities: [
+{
+type: ShieldArcAbility
+radius: 60.0
+regen:	0.5
+max: 5000.0
+cooldown:	300.0
+angle:	80.0
+y: 5.0
+whenShooting: false
+}
+]
