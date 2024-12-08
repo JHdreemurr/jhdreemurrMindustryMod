@@ -1,0 +1,8 @@
+name: "jhdreemurr-mod-frostscapes"
+displayName: "This isn't a mod."
+author: "jh_dreemurr"
+description: "aaaaaaaaaaaaa"
+version: "0.0"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false
