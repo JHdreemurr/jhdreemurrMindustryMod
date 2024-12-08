@@ -1,0 +1,49 @@
+type: mech
+localizedName: Glaive
+description: "The Glaive is a fast lightweight unit, good in large numbers or for scouting in missions with fog. Can quickly regenerate health. Due to an oversite in the design process it cannot aim upwards (cant hit air units)."
+flying: false
+targetGround: true
+targetAir: false
+health: 270
+speed: 1.05
+rotateSpeed: 65
+circleTarget: false
+lightRadius: 25
+lightColor: ffffff
+weapons: [
+  {
+   name: mini-autocannon
+    x: 2.5
+    y: 0
+    reload: 5
+    inaccuracy: 14
+    shootSound: pew
+    bullet: {
+      type: StandardBulletType
+      damage: 18
+      speed: 6
+      recoil: 0
+      frontColor: ffae00
+      backColor: ff9100
+      collidesTeam: false
+      lifetime: 25
+      lightColor: 3161FF
+      smokeEffect: {
+        type: WaveEffect
+        sizeFrom: 0
+        sizeTo: 8
+        colorFrom: ff9100
+        colorTo: ff9100
+        lifetime: 10
+        strokeFrom: 1
+        strokeTo: 0
+      }
+    }  
+  }
+]
+abilities: [
+{
+type: RegenAbility
+percentamount: 2.5
+}
+]
