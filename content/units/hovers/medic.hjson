@@ -45,8 +45,9 @@ weapons: [
     mirror: true
     reload: 0.05
     bullet: {
-      type: LaserBoltBulletType
+      type: SapBulletType
       damage: 7
+      sapStrength: 1
       pierce: true
       pierceCap: 10
       laserAbsorb: false
