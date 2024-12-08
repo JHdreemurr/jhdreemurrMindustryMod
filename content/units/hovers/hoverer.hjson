@@ -29,7 +29,7 @@ weapons: [
     mirror: false
     bullet: {
       type: BulletType
-      maxRange: 7.5
+      maxRange: 15
     }
   }
   {
@@ -42,8 +42,8 @@ weapons: [
     autoTarget: true
     rotateSpeed: 50.0
     recoil: 0
-    mirror: true
-    reload: 0.05
+    mirror: false
+    reload: 0.5
     bullet: {
       type: SapBulletType
       damage: 7
